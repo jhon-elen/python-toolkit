@@ -4,7 +4,7 @@ Utilidades reutilizables para mis proyectos de Python.
 
 ## Requisitos
 
-- Python 3.14 o superior
+- Python 3.10 o superior
 - [uv](https://docs.astral.sh/uv/)
 
 ## Instalación
