@@ -5,14 +5,20 @@ Utilidades reutilizables para mis proyectos de Python.
 ## Requisitos
 
 - Python 3.10 o superior
-- [uv](https://docs.astral.sh/uv/)
+- [uv](https://docs.astral.sh/uv/) o [Poetry](https://python-poetry.org/)
 
 ## Instalación
 
-Desde la carpeta del proyecto donde quieres usar la librería:
+Desde la carpeta del proyecto donde quieres usar la librería, como dependencia de desarrollo:
 
 ```bash
-uv add git+https://github.com/jhon-elen/python-toolkit.git
+uv add --dev git+https://github.com/jhon-elen/python-toolkit.git
+```
+
+Con [Poetry](https://python-poetry.org/):
+
+```bash
+poetry add --dev git+https://github.com/jhon-elen/python-toolkit.git
 ```
 
 ## Uso
